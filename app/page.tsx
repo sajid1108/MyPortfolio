@@ -26,7 +26,7 @@ export default function Home() {
             rotationInterval={2000}
           />
           <div className="col-span-6">
-            <Lanyard position={[0, 0, 12]} gravity={[0, -40, 0]} />
+            <Lanyard position={[0, 0, 15]} gravity={[0, -40, 0]} />
           </div>
         </div>
       </div>
