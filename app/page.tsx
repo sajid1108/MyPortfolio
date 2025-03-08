@@ -9,12 +9,7 @@ export default function Home() {
         <div className="grid grid-cols-12">
           <div className="col-span-6">A</div>
           <RotatingText
-            texts={[
-              "Web Design",
-              "Web Development",
-              "Web Programing",
-              "AI Development",
-            ]}
+            texts={["Student", "Junior Front End"]}
             mainClassName="px-2 sm:px-2 md:px-3 bg-cyan-300 text-black overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
             staggerFrom={"last"}
             initial={{ y: "100%" }}
