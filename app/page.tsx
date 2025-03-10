@@ -12,10 +12,10 @@ export default function Home() {
           <div className="col-span-6">
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-2">
-                <h1 className="text-2x1 text-white font-bold">I'm a</h1>
+                <h1 className="text-4xl text-white font-bold">I'm a</h1>
                 <RotatingText
                   texts={["Student", "Junior Front End"]}
-                  mainClassName="px-2 sm:px-2 md:px-3 bg-[#C6F10E] text-black overflow-hidden py-0.5 sm:py-1 justify-center rounded-lg text-2x1 font-bold inline-flex transition-all"
+                  mainClassName="px-2 sm:px-2 md:px-3 bg-[#C6F10E] text-black overflow-hidden py-0.5 sm:py-1 justify-center rounded-lg text-4xl font-bold inline-flex transition-all"
                   staggerFrom={"last"}
                   initial={{ y: "100%" }}
                   animate={{ y: 0 }}
@@ -30,7 +30,7 @@ export default function Home() {
               <div className="flex flex-col items-start">
                 <SplitText
                   text="Sajid Abdul Fatah"
-                  className="text-2xl font-semibold text-center"
+                  className="text-6xl font-semibold text-center"
                   delay={50}
                   animationFrom={{
                     opacity: 0,
@@ -42,7 +42,7 @@ export default function Home() {
                 />
                 <SplitText
                   text="Front End Developer"
-                  className="text-2xl font-semibold text-center text-[#C6F10E]"
+                  className="text-6xl font-semibold text-center text-[#C6F10E]"
                   delay={75}
                   animationFrom={{
                     opacity: 0,
