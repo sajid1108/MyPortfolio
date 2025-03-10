@@ -5,10 +5,12 @@ import SplitText from "./components/SplitText/SplitText";
 import BlurText from "./components/BlurText/BlurText";
 import AnimatedContent from "./components/AnimatedContent/AnimatedContent";
 import Squares from "./components/Squares/Squares";
+import SplashCursor from "./components/SplashCursor/SplashCursor";
 
 export default function Home() {
   return (
     <div className="min-h-screen overflow-x-hidden bg-[#19222D]">
+      <SplashCursor />
       <div className="absolute top-0 right-0 left-0 buttom-0 w-full h-full">
         <Squares
           speed={0.5}
